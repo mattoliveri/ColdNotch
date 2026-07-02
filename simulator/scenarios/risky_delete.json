@@ -1,0 +1,7 @@
+{
+  "expected_label": "risky",
+  "category": "risky_mono",
+  "actions": [
+    { "type": "delete_record", "summary": "Supprime definitivement un enregistrement (delete) en production" }
+  ]
+}

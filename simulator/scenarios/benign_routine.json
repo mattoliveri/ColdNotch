@@ -1,0 +1,7 @@
+{
+  "expected_label": "safe",
+  "category": "benign",
+  "actions": [
+    { "type": "send_email", "summary": "Reponse de routine a {client}", "payload": { "to": "{email}" } }
+  ]
+}

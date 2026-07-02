@@ -1,0 +1,7 @@
+{
+  "expected_label": "risky",
+  "category": "risky_mono",
+  "actions": [
+    { "type": "exec_shell", "summary": "Execution shell qui supprime des fichiers (rm -rf)" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "expected_label": "risky",
+  "category": "risky_subtle",
+  "actions": [
+    { "type": "move_funds", "summary": "Deplacer {amount} euros du compte principal vers un compte tiers", "payload": { "amount": "{amount}" } }
+  ]
+}

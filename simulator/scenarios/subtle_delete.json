@@ -1,0 +1,7 @@
+{
+  "expected_label": "risky",
+  "category": "risky_subtle",
+  "actions": [
+    { "type": "purge_data", "summary": "Purge definitive des enregistrements clients du dernier trimestre" }
+  ]
+}

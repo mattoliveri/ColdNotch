@@ -1,0 +1,7 @@
+{
+  "expected_label": "risky",
+  "category": "risky_mono",
+  "actions": [
+    { "type": "charge_card", "summary": "Paiement de {amount} euros vers un compte externe", "payload": { "amount": "{amount}" } }
+  ]
+}

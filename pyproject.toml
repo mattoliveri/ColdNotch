@@ -1,0 +1,22 @@
+[project]
+name = "coldnotch"
+version = "0.0.1"
+description = "Coldnotch : le gate des actions d'agent (open source)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Coldnotch" }]
+keywords = ["ai", "agents", "guardrails", "human-in-the-loop", "audit"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+# Serveur d'approbation (auto-hébergeable). La lib et le SlackNotifier restent stdlib.
+server = ["fastapi>=0.110", "uvicorn>=0.29"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["coldnotch"]

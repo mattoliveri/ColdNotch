@@ -1,0 +1,7 @@
+{
+  "expected_label": "safe",
+  "category": "benign",
+  "actions": [
+    { "type": "read_document", "summary": "Lecture d'un document interne pour {client}" }
+  ]
+}

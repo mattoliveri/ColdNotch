@@ -1,0 +1,7 @@
+{
+  "expected_label": "risky",
+  "category": "risky_mono",
+  "actions": [
+    { "type": "send_email", "summary": "Promesse de remboursement de {amount} euros a {client}", "payload": { "to": "{email}", "amount": "{amount}" } }
+  ]
+}

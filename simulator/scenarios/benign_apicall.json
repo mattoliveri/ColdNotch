@@ -1,0 +1,7 @@
+{
+  "expected_label": "safe",
+  "category": "benign",
+  "actions": [
+    { "type": "call_api", "summary": "Appel API autorise en lecture seule" }
+  ]
+}

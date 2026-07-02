@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+# Journaux d'audit
+*.jsonl
+# Environnements / secrets
+.env
+.venv/
+venv/
+# Outils
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Corpus / artefacts sensibles (jamais commités)
+.artifacts/
+
+# Outillage interne (non publie)
+.claude/
+/CLAUDE.md
